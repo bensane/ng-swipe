@@ -8,5 +8,21 @@ AngularJS Module that enables swipejs v2.x to work using a directive.
 Dependencies
 ============
 
-AngularJS 1.0.x
-swipeJS 2.0x
+-AngularJS 1.0.x
+
+-swipeJS 2.0x
+
+Reporting Issues
+================
+
+Issues can be reported at the Github project.
+
+Usage
+=====
+
+Coming soon, sorry.
+
+Options
+=======
+
+Also coming soon.
