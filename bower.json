@@ -1,0 +1,13 @@
+{
+  "name": "ng-swipe",
+  "version": "0.1.0",
+  "main": "./src/ng-swipe.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+    "dependencies": {
+        "angular": "latest"
+    }
+}

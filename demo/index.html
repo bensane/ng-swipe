@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>ng-swipe Demo</title>
+    <link rel='stylesheet' href="app.css">
+</head>
+
+
+
+<body ng-controller="MainCtrl">
+
+
+    <swipe callback="demoCallBack()" next="nextSlide" prev="prevSlide">
+        <div class="demo-box">
+            <h1>Slide 1</h1>
+        </div>
+        <div class="demo-box">
+            <h1>Slide 2</h1>
+        </div>
+        <div class="demo-box">
+            <h1>Slide 3</h1>
+        </div>
+    </swipe>
+
+    <li>
+        <ul>
+           <button ng-click="prev()">Prev</button>
+        </ul>
+        <ul>
+            <button ng-click="next()">Next</button>
+        </ul>
+    </li>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+
+    <script type="text/javascript" src="../src/swipe.js"></script>
+    <script type="text/javascript" src="../src/ng-swipe.js"></script>
+</body>
+</html>
