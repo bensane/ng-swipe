@@ -42,6 +42,7 @@ Implementation (Code)
     }
 
 HTML
+
     <swipe callback="demoCallBack()" next="nextSlide" prev="prevSlide">
              <div class="demo-box">
                  <h1>Slide 1</h1>
